@@ -2,13 +2,6 @@
 
 Welcome to the **Real-Time Chat Application**, a cutting-edge communication platform built with an ASP.NET Core Web API backend and a React frontend. This project harnesses the power of **SignalR** to deliver real-time messaging and seamless communication for multiple users. Whether you're chatting in a group or joining a specific chat room, this app ensures a responsive and engaging user experience.
 
-## Key Features
-
-- **Real-Time Communication with SignalR**: Leveraging SignalR, this app provides instant messaging capabilities, allowing users to communicate in real time without any noticeable delays.
-- **Group Chat Functionality**: Users can join different chat rooms or groups and communicate exclusively with members of those groups, creating a focused and collaborative environment.
-- **Dynamic User Differentiation**: Each user is assigned a unique color for their messages, making it easy to visually distinguish between different participants in the chat.
-- **Timestamped Messages**: Every message sent or received is timestamped, providing context and a historical record of conversations.
-- **Multiple User Support**: The application supports multiple users joining simultaneously, with each user's messages displayed in real time to all participants in the same group or chat room.
 
 ![Screenshot of Application](/ChatMessages.PNG "Application Screenshot")
 
@@ -29,37 +22,11 @@ Welcome to the **Real-Time Chat Application**, a cutting-edge communication plat
 - **Dynamic User Handling**: The app dynamically assigns colors to each user's messages for easy differentiation and timestamps every message to provide context.
   
 ## Credit
-This project was inspired by and built following tutorials and guidance from [Mohamad Lawand](https://github.com/mohamadlawand-patreon). Special thanks for providing invaluable resources and examples that helped shape this application.
-
+This project was inspired by and built following tutorials and guidance from [Mohamad Lawand]
 ## Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org)
 - [ASP.NET Core SDK](https://dotnet.microsoft.com/download)
 - [React](https://reactjs.org)
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/RealTimeChatApp.git
-  
-2. Navigate to the backend folder and run:
-   ```bash
-   dotnet restore
-   dotnet run
-  
-3. Navigate to the frontend folder and run:
-   ```bash
-   npm install
-   npm start
-  
-## Usage
-- Open your browser and navigate to the specified localhost URL.
-- Enter your username and join a chat room to start communicating in real time!
-
-## Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-This project is licensed under the MIT License.
 
